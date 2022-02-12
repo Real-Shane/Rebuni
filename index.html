@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@200&family=Open+Sans&family=Patrick+Hand&family=Raleway:wght@200;300;400&family=Supermercado+One&display=swap');
+
+            body, html{
+                margin:0;
+                background: #D5D5D5;
+                font-family: 'Dancing Script', cursive;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            nav{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 0;
+                padding: 40px;
+                background: #ffffff;
+            }
+
+            .left-nav{
+                margin-left: 5%;
+            }
+                .left-nav a{
+                    padding:15px;
+                    text-decoration: none;
+                    color: #252525;
+                    font-weight: bold;
+                }
+
+            .logo a{
+                text-decoration: none;
+                color: #252525;
+                font-weight: bold;
+            }
+
+            .right-nav{
+                margin-right: 5%;
+            }
+                .right-nav a{
+                    padding:15px;
+                    text-decoration: none;
+                    color: #252525;
+                    font-weight: bold;
+                }
+
+            .right-search{
+                color: #252525;
+            }
+
+            main{
+                margin-top: 0.4%;
+            }
+
+            .hero{
+                display: grid;
+                grid-template-columns: 3fr 1fr;
+                column-gap: 6px;
+                min-height: 100%;
+            }
+
+            .hero-div1{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                background: #ffffff;
+                min-height: 100%;
+            }
+
+            .hero-div2{
+                display: block;
+                min-height: 100%;
+                background: #ffffff;
+            }
+
+            .left-dots{
+                display: block;
+                text-align: center;
+                margin-top: 60%;
+            }
+            .left-dots a{
+                display: block;
+                text-decoration: none;
+                color: #252525;
+                font-size: 30px;
+            }
+
+
+            .important-text h1{
+                font-size: 45px;
+            }
+
+            .middle-content{
+                display: block;
+                padding: 60px;
+            }
+
+            .images img{
+                width:350px;
+            }
+
+            .social{
+                display: inline-block;
+                margin-top: 10%;
+            }
+
+            .social a{
+                text-decoration: none;
+                padding: 5px;
+                color: #252525;
+
+            }
+
+            
+
+            .send-query{
+                display: inline-block;
+                margin-top: 10%;
+                width:200px;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
+            .send-query a{
+                padding: 12px;
+                text-decoration: none;
+                color: #252525;
+            }
+
+            .profile{
+                margin-top: 20%;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
+            .knowledge{
+                display: inline-block;
+                margin-top: 10%;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
+
+
+            @media  screen and (max-width : 800px){
+                .left-dots{
+                    visibility: hidden;
+                }
+
+                .hero{
+                    display: block;
+                    width: 100%;
+                }
+
+                .hero-div1{
+                    
+                }
+                .hero-div2{
+                    text-align: center;
+                    padding: 12px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="left-nav">
+                    <a href="#">
+                        Collections
+                    </a>
+                    <a href="#">
+                        Most popular
+                    </a>
+                </div>
+                <div class="logo">
+                    <a href="#">
+                        REBUNI
+                    </a>
+                </div>
+                <div class="right-nav">
+                    <a href="#">
+                        My account
+                    </a>
+                    <a href="#">
+                        My cart
+                    </a>
+                    <a class="right-search" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="hero">
+                <div class="hero-div1">
+                    <div class="left-dots">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                              </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                              </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                              </svg>
+                        </a>
+                    </div>
+                    <div class="middle-content">
+                        <div class="date">
+                            <span>20 January 2021 <strong></strong> Blog</span>
+                        </div>
+
+                        <div class="important-text">
+                            <h1>We create a <br/>modern beautiful <br/>photo.</h1>
+                        </div>
+
+                        <div class="images">
+                            <img alt="Photo by Kampus Production from Pexels" src="img/p1.jpg"/>
+                        </div>
+
+                        <divc class="social">
+                            <a href="#">
+                                Facebook
+                            </a>
+                            <a href="#">
+                                Twitter
+                            </a>
+                            <a href="#">
+                                Instagram
+                            </a>
+                        </divc>
+                    </div>
+                    
+                </div>
+
+                <div class="hero-div2">
+                    <div class="profile">
+                        
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                            </svg>
+                        </a>
+                        <div class="air-drone">
+                            <h1>Air drone</h1>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="knowledge">
+                        <h1>Knowledge</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="send-query">
+                        <a href="#">
+                            send your query
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
+    </body>
+</html>
